@@ -17,4 +17,5 @@ List = [
     ['requests', 'python']
 ]
 Element = "html"
-print(find_path(List, Element))
+if __name__ == "__main__":
+    print(find_path(List, Element))
